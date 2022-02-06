@@ -39,7 +39,7 @@ if __name__ == "__main__":
     database = to_dict(df)
     
     while True:
-        val = input("Need help? ")    
+        val = input(">>> Need help? ")    
         
         if val == "yes":
             val = input('Field of interest? ').lower()
