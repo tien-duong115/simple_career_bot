@@ -91,4 +91,8 @@ import pandas as pd
 #         print("*", end="")
 #     print()
 
-print("\U0001f600")
+def foo():
+    global z
+    z = 10
+foo()
+print(z)
