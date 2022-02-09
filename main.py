@@ -142,7 +142,7 @@ for e,i in enumerate(mlist):
 # Starting Bot engine
 while True:
     print("\n              To EXIT type quit  \n")
-    print('\nbot: ' , get_response(input('\U0001f600 \nYou: ')))
+    print('\n\U0001F916 bot: ' , get_response(input('\U0001f600 You: ')))
     if usr_input == "quit":
         break
 

@@ -1,2 +1,7 @@
+root = Tk()
 
-    best_match = max(highest_prob_list, key=highest_prob_list.get)
+root.title('Career ChatBot Version 0.0.3')
+
+root.geometry('500x500')
+
+root.mainloop()
